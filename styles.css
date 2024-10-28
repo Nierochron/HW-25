@@ -1,0 +1,31 @@
+.box-list{
+    position: relative;
+    padding: 0;
+    margin: 12% auto;
+    list-style: none;
+    width: 400px;
+    height: 400px;
+    outline: 1px solid grey;
+}
+.box-item {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.red{
+    top: 0;
+    left: 0;
+    background-color: coral;
+}
+.blue{
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    z-index: 1;
+    background-color: slateblue;
+}
+.green{
+    right: 0;
+    bottom: 0;
+    background-color: lightseagreen;
+}
